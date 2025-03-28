@@ -1047,6 +1047,7 @@ public class Pedido extends javax.swing.JPanel {
 
     private void btnConfirmarPagoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConfirmarPagoActionPerformed
         // EVIAR A BASE
+        objetoPedido.guardarPedido(jTable3);
 }//GEN-LAST:event_btnConfirmarPagoActionPerformed
 
     private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField9ActionPerformed
